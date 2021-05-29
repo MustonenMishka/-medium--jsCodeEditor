@@ -1,0 +1,9 @@
+.cell-list {
+    margin: 0 20px 50vh;
+}
+
+/*fixing jumping, when trying to bottom-drag codecell in the bottom of the page*/
+
+.react-draggable-transparent-selection .cell-list {
+    margin-bottom: 100vh;
+}
